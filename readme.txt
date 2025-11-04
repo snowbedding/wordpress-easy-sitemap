@@ -1,6 +1,6 @@
 === Easy Sitemap ===
 Contributors: snowbedding
-Tags: sitemap, html sitemap, shortcode, seo, navigation, posts, pages, custom post types, woocommerce, hierarchical, caching, responsive, filtering
+Tags: sitemap, html sitemap, shortcode, seo, navigation
 Requires at least: 5.0
 Tested up to: 6.6
 Requires PHP: 7.2
@@ -8,7 +8,7 @@ Stable tag: 2.0.0
 License: GPLv2+
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Advanced WordPress HTML sitemap plugin with modern PSR-4 autoloading, OOP architecture, intelligent caching, and comprehensive filtering capabilities. Perfect for user navigation and SEO.
+Advanced HTML sitemap plugin with shortcode generator, intelligent caching, and comprehensive filtering for posts, pages, and custom post types.
 
 == Description ==
 

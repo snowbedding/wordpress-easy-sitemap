@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Easy Sitemap\n"
-"POT-Creation-Date: 2017-06-27 00:37+0800\n"
-"PO-Revision-Date: 2017-06-27 00:39+0800\n"
+"POT-Creation-Date: 2025-11-04 00:00+0800\n"
+"PO-Revision-Date: 2025-11-04 00:00+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -21,33 +21,540 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: index.php:16
-msgid "Posts"
-msgstr "文章"
-
-#: index.php:56
-msgid "Pages"
-msgstr "页面"
-
-#: index.php:69
-msgid "Products"
-msgstr "产品"
-
 #. Plugin Name of the plugin/theme
 msgid "Easy Sitemap"
-msgstr "站点地图"
+msgstr "Easy Sitemap 站点地图"
 
 #. Plugin URI of the plugin/theme
 #. Author URI of the plugin/theme
-msgid "https://www.snowbedding.com/wordpress-easy-sitemap-plugin/"
+msgid "https://github.com/snowbedding/wordpress-easy-sitemap"
 msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"Create sitemap page by using shortcodes, separate shortcodes for posts, "
-"pages and woocommerce products."
-msgstr "使用短代码创建WordPress站点地图，包括 文章，页面 和 Woocommerce产品"
+"Advanced WordPress HTML sitemap plugin with modern PSR-4 autoloading, OOP "
+"architecture, intelligent caching, and comprehensive filtering capabilities. "
+"Perfect for user navigation and SEO."
+msgstr ""
+"高级WordPress HTML站点地图插件，具有现代PSR-4自动加载、OOP架构、智能缓存和全面过滤功能。"
+"完美适用于用户导航和SEO。"
 
 #. Author of the plugin/theme
 msgid "snowbedding"
+msgstr "snowbedding"
+
+#: classes/Admin/Admin.php:37
+msgid "Easy Sitemap Settings"
+msgstr "Easy Sitemap 设置"
+
+#: classes/Admin/Admin.php:38
+msgid "Easy Sitemap"
+msgstr "Easy Sitemap"
+
+#: classes/Admin/Admin.php:86
+msgid "Copy Shortcode"
+msgstr "复制短代码"
+
+#: classes/Admin/Admin.php:87
+msgid "Copied!"
+msgstr "已复制！"
+
+#: classes/Admin/Admin.php:100
+msgid "Settings"
+msgstr "设置"
+
+#: classes/Admin/Admin.php:110
+msgid "You do not have sufficient permissions to access this page."
+msgstr "您没有足够的权限访问此页面。"
+
+#: classes/Admin/Admin.php:115
+msgid "Easy Sitemap"
+msgstr "Easy Sitemap"
+
+#: classes/Admin/Admin.php:118
+msgid "WordPress.org Plugin Page"
+msgstr "WordPress.org 插件页面"
+
+#: classes/Admin/Admin.php:121
+msgid "GitHub Repository"
+msgstr "GitHub 仓库"
+
+#: classes/Admin/Admin.php:149
+msgid "Available Shortcodes"
+msgstr "可用的短代码"
+
+#: classes/Admin/Admin.php:151
+msgid "Main Sitemap Shortcode"
+msgstr "主站点地图短代码"
+
+#: classes/Admin/Admin.php:153
+msgid "Displays a complete sitemap with posts, pages, and custom post types."
+msgstr "显示包含文章、页面和自定义文章类型的完整站点地图。"
+
+#: classes/Admin/Admin.php:155
+msgid "Filter by Post Type"
+msgstr "按文章类型过滤"
+
+#: classes/Admin/Admin.php:158
+msgid "Available Attributes"
+msgstr "可用属性"
+
+#: classes/Admin/Admin.php:162
+msgid "Attribute"
+msgstr "属性"
+
+#: classes/Admin/Admin.php:163
+msgid "Description"
+msgstr "描述"
+
+#: classes/Admin/Admin.php:164
+msgid "Default"
+msgstr "默认值"
+
+#: classes/Admin/Admin.php:165
+msgid "Example"
+msgstr "示例"
+
+#: classes/Admin/Admin.php:171
+msgid "Post type to display (empty = all)"
+msgstr "要显示的文章类型（空 = 全部）"
+
+#: classes/Admin/Admin.php:177
+msgid "Number of items to display"
+msgstr "要显示的项目数量"
+
+#: classes/Admin/Admin.php:183
+msgid "Sort items by"
+msgstr "排序依据"
+
+#: classes/Admin/Admin.php:189
+msgid "Sort order (ASC/DESC)"
+msgstr "排序顺序（ASC/DESC）"
+
+#: classes/Admin/Admin.php:195
+msgid "Include specific post IDs"
+msgstr "包含特定的文章ID"
+
+#: classes/Admin/Admin.php:201
+msgid "Exclude specific post IDs"
+msgstr "排除特定的文章ID"
+
+#: classes/Admin/Admin.php:207
+msgid "Filter by category slugs"
+msgstr "按分类别名过滤"
+
+#: classes/Admin/Admin.php:213
+msgid "Filter by tag slugs"
+msgstr "按标签别名过滤"
+
+#: classes/Admin/Admin.php:219
+msgid "Filter by author ID"
+msgstr "按作者ID过滤"
+
+#: classes/Admin/Admin.php:225
+msgid "Show posts from date (YYYY-MM-DD)"
+msgstr "显示从日期开始的文章（YYYY-MM-DD）"
+
+#: classes/Admin/Admin.php:231
+msgid "Show posts until date (YYYY-MM-DD)"
+msgstr "显示到日期为止的文章（YYYY-MM-DD）"
+
+#: classes/Admin/Admin.php:237
+msgid "Display hierarchical structure"
+msgstr "显示层级结构"
+
+#: classes/Admin/Admin.php:243
+msgid "Hierarchy depth (0 = unlimited)"
+msgstr "层级深度（0 = 无限制）"
+
+#: classes/Admin/Admin.php:249
+msgid "Show publication dates"
+msgstr "显示发布日期"
+
+#: classes/Admin/Admin.php:255
+msgid "Show post excerpts"
+msgstr "显示文章摘要"
+
+#: classes/Admin/Admin.php:261
+msgid "Show featured images"
+msgstr "显示特色图片"
+
+#: classes/Admin/Admin.php:267
+msgid "Enable caching for this shortcode"
+msgstr "为此短代码启用缓存"
+
+#: classes/Admin/Admin.php:274
+msgid "Example Usage"
+msgstr "使用示例"
+
+#: classes/Admin/Admin.php:276
+msgid "Posts from specific category:"
+msgstr "特定分类中的文章："
+
+#: classes/Admin/Admin.php:279
+msgid "Pages in hierarchical order:"
+msgstr "按层级顺序排列的页面："
+
+#: classes/Admin/Admin.php:282
+msgid "Recent products with images:"
+msgstr "带图片的最新产品："
+
+#: classes/Admin/Admin.php:285
+msgid "Custom styled sitemap:"
+msgstr "自定义样式站点地图："
+
+#: classes/Admin/Admin.php:300
+msgid "Custom Styling"
+msgstr "自定义样式"
+
+#: classes/Admin/Admin.php:303
+msgid "Custom CSS"
+msgstr "自定义CSS"
+
+#: classes/Admin/Admin.php:306
+msgid "Add custom CSS to style your sitemaps"
+msgstr "添加自定义CSS来为您的站点地图设置样式"
+
+#: classes/Admin/Admin.php:320
+msgid "Build your shortcode"
+msgstr "构建您的短代码"
+
+#: classes/Admin/Admin.php:325
+msgid "Basic Settings"
+msgstr "基本设置"
+
+#: classes/Admin/Admin.php:328
+msgid "Post type"
+msgstr "文章类型"
+
+#: classes/Admin/Admin.php:331
+msgid "All"
+msgstr "全部"
+
+#: classes/Admin/Admin.php:339
+msgid "Limit"
+msgstr "限制"
+
+#: classes/Admin/Admin.php:343
+msgid "Order by"
+msgstr "排序依据"
+
+#: classes/Admin/Admin.php:346
+msgid "date"
+msgstr "日期"
+
+#: classes/Admin/Admin.php:347
+msgid "title"
+msgstr "标题"
+
+#: classes/Admin/Admin.php:348
+msgid "modified"
+msgstr "修改时间"
+
+#: classes/Admin/Admin.php:349
+msgid "menu_order"
+msgstr "菜单顺序"
+
+#: classes/Admin/Admin.php:350
+msgid "rand"
+msgstr "随机"
+
+#: classes/Admin/Admin.php:351
+msgid "ID"
+msgstr "ID"
+
+#: classes/Admin/Admin.php:352
+msgid "author"
+msgstr "作者"
+
+#: classes/Admin/Admin.php:353
+msgid "name"
+msgstr "名称"
+
+#: classes/Admin/Admin.php:358
+msgid "Order"
+msgstr "顺序"
+
+#: classes/Admin/Admin.php:368
+msgid "Content Filtering"
+msgstr "内容过滤"
+
+#: classes/Admin/Admin.php:371
+msgid "Include IDs"
+msgstr "包含ID"
+
+#: classes/Admin/Admin.php:374
+msgid "Include only specific post IDs (comma-separated)."
+msgstr "仅包含特定的文章ID（用逗号分隔）。"
+
+#: classes/Admin/Admin.php:378
+msgid "Exclude IDs"
+msgstr "排除ID"
+
+#: classes/Admin/Admin.php:381
+msgid "Exclude specific post IDs (comma-separated)."
+msgstr "排除特定的文章ID（用逗号分隔）。"
+
+#: classes/Admin/Admin.php:385
+msgid "Category slugs"
+msgstr "分类别名"
+
+#: classes/Admin/Admin.php:388
+msgid "Filter by category slugs (comma-separated)."
+msgstr "按分类别名过滤（用逗号分隔）。"
+
+#: classes/Admin/Admin.php:392
+msgid "Tag slugs"
+msgstr "标签别名"
+
+#: classes/Admin/Admin.php:395
+msgid "Filter by tag slugs (comma-separated)."
+msgstr "按标签别名过滤（用逗号分隔）。"
+
+#: classes/Admin/Admin.php:399
+msgid "Custom taxonomy"
+msgstr "自定义分类法"
+
+#: classes/Admin/Admin.php:405
+msgid "Taxonomy name and term slugs (comma-separated)."
+msgstr "分类法名称和术语别名（用逗号分隔）。"
+
+#: classes/Admin/Admin.php:409
+msgid "Author ID"
+msgstr "作者ID"
+
+#: classes/Admin/Admin.php:412
+msgid "Filter by author user ID."
+msgstr "按作者用户ID过滤。"
+
+#: classes/Admin/Admin.php:416
+msgid "Date range"
+msgstr "日期范围"
+
+#: classes/Admin/Admin.php:422
+msgid "Filter posts from/to specific dates (YYYY-MM-DD)."
+msgstr "从/到特定日期过滤文章（YYYY-MM-DD）。"
+
+#: classes/Admin/Admin.php:428
+msgid "Display Options"
+msgstr "显示选项"
+
+#: classes/Admin/Admin.php:431
+msgid "Layout"
+msgstr "布局"
+
+#: classes/Admin/Admin.php:433
+msgid "Hierarchical display"
+msgstr "层级显示"
+
+#: classes/Admin/Admin.php:435
+msgid "Depth:"
+msgstr "深度："
+
+#: classes/Admin/Admin.php:439
+msgid "Show content"
+msgstr "显示内容"
+
+#: classes/Admin/Admin.php:441
+msgid "Publication dates"
+msgstr "发布日期"
+
+#: classes/Admin/Admin.php:443
+msgid "Post excerpts"
+msgstr "文章摘要"
+
+#: classes/Admin/Admin.php:445
+msgid "Featured images"
+msgstr "特色图片"
+
+#: classes/Admin/Admin.php:449
+msgid "Columns"
+msgstr "列数"
+
+#: classes/Admin/Admin.php:452
+msgid "1 column"
+msgstr "1列"
+
+#: classes/Admin/Admin.php:453
+msgid "2 columns"
+msgstr "2列"
+
+#: classes/Admin/Admin.php:454
+msgid "3 columns"
+msgstr "3列"
+
+#: classes/Admin/Admin.php:455
+msgid "4 columns"
+msgstr "4列"
+
+#: classes/Admin/Admin.php:456
+msgid "5 columns"
+msgstr "5列"
+
+#: classes/Admin/Admin.php:457
+msgid "6 columns"
+msgstr "6列"
+
+#: classes/Admin/Admin.php:459
+msgid "Number of columns for responsive grid layout."
+msgstr "响应式网格布局的列数。"
+
+#: classes/Admin/Admin.php:463
+msgid "Custom class"
+msgstr "自定义类"
+
+#: classes/Admin/Admin.php:466
+msgid "Add custom CSS class for styling."
+msgstr "添加自定义CSS类用于样式设置。"
+
+#: classes/Admin/Admin.php:474
+msgid "Generated Shortcode"
+msgstr "生成的短代码"
+
+#: classes/Admin/Admin.php:477
+msgid "Select and copy the shortcode above to use in your posts/pages."
+msgstr "选择并复制上面的短代码以在您的文章/页面中使用。"
+
+#: classes/Admin/Admin.php:478
+msgid "Copy Shortcode"
+msgstr "复制短代码"
+
+#: classes/Admin/Admin.php:482
+msgid "All Supported Attributes"
+msgstr "所有支持的属性"
+
+#: classes/Admin/Admin.php:494
+msgid "empty"
+msgstr "空"
+
+#: classes/Admin/Admin.php:498
+msgid "Post type to display"
+msgstr "要显示的文章类型"
+
+#: classes/Admin/Admin.php:504
+msgid "Positive integer"
+msgstr "正整数"
+
+#: classes/Admin/Admin.php:508
+msgid "Sort items by"
+msgstr "排序项目依据"
+
+#: classes/Admin/Admin.php:514
+msgid "Sort direction"
+msgstr "排序方向"
+
+#: classes/Admin/Admin.php:520
+msgid "Comma-separated post IDs"
+msgstr "用逗号分隔的文章ID"
+
+#: classes/Admin/Admin.php:524
+msgid "Include only specific post IDs"
+msgstr "仅包含特定的文章ID"
+
+#: classes/Admin/Admin.php:530
+msgid "Exclude specific post IDs"
+msgstr "排除特定的文章ID"
+
+#: classes/Admin/Admin.php:536
+msgid "Comma-separated category slugs"
+msgstr "用逗号分隔的分类别名"
+
+#: classes/Admin/Admin.php:540
+msgid "Filter by category slugs"
+msgstr "按分类别名过滤"
+
+#: classes/Admin/Admin.php:544
+msgid "Comma-separated tag slugs"
+msgstr "用逗号分隔的标签别名"
+
+#: classes/Admin/Admin.php:548
+msgid "Filter by tag slugs"
+msgstr "按标签别名过滤"
+
+#: classes/Admin/Admin.php:554
+msgid "Custom taxonomy name to filter by"
+msgstr "用于过滤的自定义分类法名称"
+
+#: classes/Admin/Admin.php:560
+msgid "Custom taxonomy term slugs"
+msgstr "自定义分类法术语别名"
+
+#: classes/Admin/Admin.php:566
+msgid "Author user ID"
+msgstr "作者用户ID"
+
+#: classes/Admin/Admin.php:570
+msgid "Filter by author ID"
+msgstr "按作者ID过滤"
+
+#: classes/Admin/Admin.php:574
+msgid "Date in YYYY-MM-DD format"
+msgstr "YYYY-MM-DD格式的日期"
+
+#: classes/Admin/Admin.php:578
+msgid "Show posts from this date"
+msgstr "从此日期显示文章"
+
+#: classes/Admin/Admin.php:584
+msgid "Show posts until this date"
+msgstr "显示到此日期为止的文章"
+
+#: classes/Admin/Admin.php:590
+msgid "Display hierarchical structure"
+msgstr "显示层级结构"
+
+#: classes/Admin/Admin.php:596
+msgid "Hierarchy depth"
+msgstr "层级深度"
+
+#: classes/Admin/Admin.php:602
+msgid "Show publication dates"
+msgstr "显示发布日期"
+
+#: classes/Admin/Admin.php:608
+msgid "Show post excerpts"
+msgstr "显示文章摘要"
+
+#: classes/Admin/Admin.php:614
+msgid "Show featured images"
+msgstr "显示特色图片"
+
+#: classes/Admin/Admin.php:620
+msgid "Positive integer"
+msgstr "正整数"
+
+#: classes/Admin/Admin.php:624
+msgid "Number of columns"
+msgstr "列数"
+
+#: classes/Admin/Admin.php:630
+msgid "Valid CSS class name"
+msgstr "有效的CSS类名"
+
+#: classes/Admin/Admin.php:634
+msgid "Custom CSS class for styling"
+msgstr "用于样式的自定义CSS类"
+
+#: classes/Admin/Admin.php:637
+msgid ""
+"All attributes can be used together. Example: [easy_sitemap post_type=\"post\" "
+"category=\"news\" limit=\"20\" show_dates=\"1\" show_images=\"1\"]"
 msgstr ""
+"所有属性可以一起使用。示例：[easy_sitemap post_type=\"post\" category=\"news\" "
+"limit=\"20\" show_dates=\"1\" show_images=\"1\"]"
+
+#: classes/Frontend/Shortcodes.php:406
+msgid "No content found."
+msgstr "未找到内容。"
+
+#: classes/Frontend/Shortcodes.php:478
+msgid "Uncategorized"
+msgstr "未分类"
+
+#: classes/Frontend/Shortcodes.php:646
+msgid "Posts"
+msgstr "文章"
+
+#: classes/Frontend/Shortcodes.php:654
+msgid "Pages"
+msgstr "页面"
