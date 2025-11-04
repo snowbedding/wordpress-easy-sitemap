@@ -151,10 +151,9 @@ Yes! Full WooCommerce support:
 - Featured images display for products
 
 == Screenshots ==
-
-1. **Settings Page** - Complete admin interface with shortcode generator
-2. **Shortcode Generator** - Visual builder for creating custom shortcodes
-3. **Frontend Display** - Clean, responsive sitemap output
+1. Frontend Display
+2. Shortcode Generator
+3. All Supported Attributes
 
 == Changelog ==
 
@@ -186,12 +185,6 @@ Yes! Full WooCommerce support:
 
 = 2.0.0 =
 This major update includes a complete architecture rewrite with modern PSR-4 autoloading, intelligent caching, and comprehensive filtering options. We recommend exploring the new visual shortcode generator for enhanced functionality.
-
-== Credits ==
-
-* Original plugin by pandasilk
-* Enhanced and maintained by the WordPress community
-* Icons and assets from WordPress core
 
 == Support ==
 

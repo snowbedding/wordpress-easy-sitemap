@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: Easy Sitemap
- * Plugin URI:  https://www.pandasilk.com/wordpress-easy-sitemap-plugin/
- * Description: Advanced WordPress HTML sitemap plugin with Gutenberg blocks, caching, and extensive customization options. Supports posts, pages, and all custom post types.
+ * Plugin URI:  https://github.com/snowbedding/wordpress-easy-sitemap
+ * Description: Advanced WordPress HTML sitemap plugin with modern PSR-4 autoloading, OOP architecture, intelligent caching, and comprehensive filtering capabilities. Perfect for user navigation and SEO.
  * Version: 2.0.0
- * Author: pandasilk
- * Author URI: https://www.pandasilk.com/wordpress-easy-sitemap-plugin/
+ * Author: snowbedding
+ * Author URI: https://github.com/snowbedding
  * Text Domain: easy-sitemap
  * Domain Path: /languages
  * License: GPLv2 or later

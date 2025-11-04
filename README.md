@@ -8,7 +8,7 @@ Advanced HTML sitemap generator for WordPress with modern PSR-4 autoloading, OOP
 
 For support, bug reports, or feature requests:
 - [WordPress Plugin Directory](https://wordpress.org/plugins/easy-sitemap/)
-- [Easy Sitemap Support](https://github.com/snowbedding/wordpress-easy-sitemap)
+- [Easy Sitemap Support](https://github.com/snowbedding/wordpress-easy-sitemap/issues)
 
 ## ✨ Features
 

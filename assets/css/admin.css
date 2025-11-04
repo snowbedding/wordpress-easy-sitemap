@@ -285,3 +285,29 @@
 		font-size: 14px;
 	}
 }
+
+/* Plugin header */
+.easy-sitemap-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+	flex-wrap: wrap;
+	gap: 15px;
+}
+
+/* Plugin links */
+.easy-sitemap-links {
+	display: flex;
+	gap: 10px;
+	flex-wrap: wrap;
+}
+
+.easy-sitemap-links .button {
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+.easy-sitemap-links .button:hover {
+	text-decoration: none;
+}

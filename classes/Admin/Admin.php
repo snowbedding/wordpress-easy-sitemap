@@ -111,7 +111,17 @@ class Admin {
 		}
 		?>
 		<div class="wrap">
-			<h1><?php esc_html_e( 'Easy Sitemap', 'easy-sitemap' ); ?></h1>
+			<div class="easy-sitemap-header">
+				<h1><?php esc_html_e( 'Easy Sitemap', 'easy-sitemap' ); ?></h1>
+				<div class="easy-sitemap-links">
+					<a href="https://wordpress.org/plugins/easy-sitemap/" target="_blank" rel="noopener noreferrer" class="button button-secondary">
+						<?php esc_html_e( 'WordPress.org Plugin Page', 'easy-sitemap' ); ?>
+					</a>
+					<a href="https://github.com/snowbedding/wordpress-easy-sitemap" target="_blank" rel="noopener noreferrer" class="button button-secondary">
+						<?php esc_html_e( 'GitHub Repository', 'easy-sitemap' ); ?>
+					</a>
+				</div>
+			</div>
 
 			<?php $this->shortcode_generator_section(); ?>
 
