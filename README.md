@@ -4,6 +4,12 @@ Advanced HTML sitemap generator for WordPress with modern PSR-4 autoloading, OOP
 
 **Version:** 2.0.0
 
+## 📞 Support
+
+For support, bug reports, or feature requests:
+- [WordPress Plugin Directory](https://wordpress.org/plugins/easy-sitemap/)
+- [Easy Sitemap Support](https://github.com/snowbedding/wordpress-easy-sitemap)
+
 ## ✨ Features
 
 - **Modern Architecture**: PSR-4 autoloading with clean OOP design
@@ -325,12 +331,6 @@ the Free Software Foundation; either version 2 of the License, or
 3. Make your changes
 4. Test thoroughly
 5. Submit a pull request
-
-## 📞 Support
-
-For support, bug reports, or feature requests:
-- [WordPress Plugin Directory](https://wordpress.org/plugins/easy-sitemap/)
-- [Easy Sitemap Support](https://github.com/snowbedding/wordpress-easy-sitemap)
 
 ---
 
