@@ -281,7 +281,7 @@ class Shortcodes {
 				'hierarchical'   => '0',
 				'depth'          => '0',
 				'columns'        => '1',
-				'class'          => 'snowbedding-easy-sitemap',
+				'class'          => 'easy-sitemap',
 				'cache'          => get_option( 'easy_sitemap_cache_enabled', '1' ),
 				'cache_expiry'   => get_option( 'easy_sitemap_cache_expiry', 3600 ),
             ),
@@ -403,7 +403,7 @@ class Shortcodes {
 		$posts = $this->get_posts( $atts );
 
 		if ( empty( $posts ) ) {
-			return '<p>' . esc_html__( 'No content found.', 'snowbedding-easy-sitemap' ) . '</p>';
+			return '<p>' . esc_html__( 'No content found.', 'easy-sitemap' ) . '</p>';
 		}
 
 		// Build the sitemap structure based on type.
@@ -475,7 +475,7 @@ class Shortcodes {
 		foreach ( $posts as $post ) {
 			$categories = get_the_category( $post->ID );
 			if ( empty( $categories ) ) {
-				$category_name = __( 'Uncategorized', 'snowbedding-easy-sitemap' );
+				$category_name = __( 'Uncategorized', 'easy-sitemap' );
 				$posts_by_category[ $category_name ][] = $post;
 			} else {
 				foreach ( $categories as $category ) {
@@ -643,7 +643,7 @@ class Shortcodes {
 		$atts_posts = array_merge( $atts, array( 'type' => 'posts' ) );
 		$posts = $this->get_posts( $atts_posts );
 		if ( ! empty( $posts ) ) {
-			$output .= '<h2>' . esc_html__( 'Posts', 'snowbedding-easy-sitemap' ) . '</h2>';
+			$output .= '<h2>' . esc_html__( 'Posts', 'easy-sitemap' ) . '</h2>';
 			$output .= $this->build_posts_sitemap( $posts, $atts_posts );
 		}
 
@@ -651,7 +651,7 @@ class Shortcodes {
 		$atts_pages = array_merge( $atts, array( 'type' => 'pages' ) );
 		$pages = $this->get_posts( $atts_pages );
 		if ( ! empty( $pages ) ) {
-			$output .= '<h2>' . esc_html__( 'Pages', 'snowbedding-easy-sitemap' ) . '</h2>';
+			$output .= '<h2>' . esc_html__( 'Pages', 'easy-sitemap' ) . '</h2>';
 			$output .= $this->build_pages_sitemap( $pages, $atts_pages );
 		}
 

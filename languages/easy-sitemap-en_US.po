@@ -1,0 +1,547 @@
+# Copyright (C) 2025 snowbedding
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy Sitemap 2.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/easy-sitemap\n"
+"Last-Translator: snowbedding <support@github.com>\n"
+"Language-Team: English (United States) <en@li.org>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-11-10T17:33:21+00:00\n"
+"PO-Revision-Date: 2025-11-10T17:35:00+00:00\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: easy-sitemap\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Plugin Name of the plugin
+#: index.php
+#: classes/Admin/Admin.php:38
+#: classes/Admin/Admin.php:115
+msgid "Easy Sitemap"
+msgstr "Easy Sitemap"
+
+#. Plugin URI of the plugin
+#: index.php
+msgid "https://github.com/snowbedding/easy-sitemap"
+msgstr "https://github.com/snowbedding/easy-sitemap"
+
+#. Description of the plugin
+#: index.php
+msgid "Advanced WordPress HTML sitemap plugin with modern PSR-4 autoloading, OOP architecture, intelligent caching, and comprehensive filtering capabilities. Perfect for user navigation and SEO."
+msgstr "Advanced WordPress HTML sitemap plugin with modern PSR-4 autoloading, OOP architecture, intelligent caching, and comprehensive filtering capabilities. Perfect for user navigation and SEO."
+
+#. Author of the plugin
+#: index.php
+msgid "snowbedding"
+msgstr "snowbedding"
+
+#. Author URI of the plugin
+#: index.php
+msgid "https://github.com/snowbedding"
+msgstr "https://github.com/snowbedding"
+
+#: classes/Admin/Admin.php:37
+msgid "Easy Sitemap Settings"
+msgstr "Easy Sitemap Settings"
+
+#: classes/Admin/Admin.php:86
+#: classes/Admin/Admin.php:477
+msgid "Copy Shortcode"
+msgstr "Copy Shortcode"
+
+#: classes/Admin/Admin.php:87
+msgid "Copied!"
+msgstr "Copied!"
+
+#: classes/Admin/Admin.php:100
+msgid "Settings"
+msgstr "Settings"
+
+#: classes/Admin/Admin.php:110
+msgid "You do not have sufficient permissions to access this page."
+msgstr "You do not have sufficient permissions to access this page."
+
+#: classes/Admin/Admin.php:118
+msgid "WordPress.org Plugin Page"
+msgstr "WordPress.org Plugin Page"
+
+#: classes/Admin/Admin.php:121
+msgid "GitHub Repository"
+msgstr "GitHub Repository"
+
+#: classes/Admin/Admin.php:149
+msgid "Available Shortcodes"
+msgstr "Available Shortcodes"
+
+#: classes/Admin/Admin.php:151
+msgid "Main Sitemap Shortcode"
+msgstr "Main Sitemap Shortcode"
+
+#: classes/Admin/Admin.php:153
+msgid "Displays a complete sitemap with posts, pages, and custom post types."
+msgstr "Displays a complete sitemap with posts, pages, and custom post types."
+
+#: classes/Admin/Admin.php:155
+msgid "Filter by Post Type"
+msgstr "Filter by Post Type"
+
+#: classes/Admin/Admin.php:158
+msgid "Available Attributes"
+msgstr "Available Attributes"
+
+#: classes/Admin/Admin.php:162
+#: classes/Admin/Admin.php:486
+msgid "Attribute"
+msgstr "Attribute"
+
+#: classes/Admin/Admin.php:163
+#: classes/Admin/Admin.php:489
+msgid "Description"
+msgstr "Description"
+
+#: classes/Admin/Admin.php:164
+#: classes/Admin/Admin.php:488
+msgid "Default"
+msgstr "Default"
+
+#: classes/Admin/Admin.php:165
+#: classes/Admin/Admin.php:490
+msgid "Example"
+msgstr "Example"
+
+#: classes/Admin/Admin.php:171
+msgid "Post type to display (empty = all)"
+msgstr "Post type to display (empty = all)"
+
+#: classes/Admin/Admin.php:177
+#: classes/Admin/Admin.php:505
+msgid "Number of items to display"
+msgstr "Number of items to display"
+
+#: classes/Admin/Admin.php:183
+#: classes/Admin/Admin.php:512
+msgid "Sort items by"
+msgstr "Sort items by"
+
+#: classes/Admin/Admin.php:189
+msgid "Sort order (ASC/DESC)"
+msgstr "Sort order (ASC/DESC)"
+
+#: classes/Admin/Admin.php:195
+msgid "Include specific post IDs"
+msgstr "Include specific post IDs"
+
+#: classes/Admin/Admin.php:201
+#: classes/Admin/Admin.php:533
+msgid "Exclude specific post IDs"
+msgstr "Exclude specific post IDs"
+
+#: classes/Admin/Admin.php:207
+#: classes/Admin/Admin.php:540
+msgid "Filter by category slugs"
+msgstr "Filter by category slugs"
+
+#: classes/Admin/Admin.php:213
+#: classes/Admin/Admin.php:547
+msgid "Filter by tag slugs"
+msgstr "Filter by tag slugs"
+
+#: classes/Admin/Admin.php:219
+#: classes/Admin/Admin.php:568
+msgid "Filter by author ID"
+msgstr "Filter by author ID"
+
+#: classes/Admin/Admin.php:225
+msgid "Show posts from date (YYYY-MM-DD)"
+msgstr "Show posts from date (YYYY-MM-DD)"
+
+#: classes/Admin/Admin.php:231
+msgid "Show posts until date (YYYY-MM-DD)"
+msgstr "Show posts until date (YYYY-MM-DD)"
+
+#: classes/Admin/Admin.php:237
+#: classes/Admin/Admin.php:589
+msgid "Display hierarchical structure"
+msgstr "Display hierarchical structure"
+
+#: classes/Admin/Admin.php:243
+msgid "Hierarchy depth (0 = unlimited)"
+msgstr "Hierarchy depth (0 = unlimited)"
+
+#: classes/Admin/Admin.php:249
+#: classes/Admin/Admin.php:603
+msgid "Show publication dates"
+msgstr "Show publication dates"
+
+#: classes/Admin/Admin.php:255
+#: classes/Admin/Admin.php:610
+msgid "Show post excerpts"
+msgstr "Show post excerpts"
+
+#: classes/Admin/Admin.php:261
+#: classes/Admin/Admin.php:617
+msgid "Show featured images"
+msgstr "Show featured images"
+
+#: classes/Admin/Admin.php:267
+msgid "Enable caching for this shortcode"
+msgstr "Enable caching for this shortcode"
+
+#: classes/Admin/Admin.php:274
+msgid "Example Usage"
+msgstr "Example Usage"
+
+#: classes/Admin/Admin.php:276
+msgid "Posts from specific category:"
+msgstr "Posts from specific category:"
+
+#: classes/Admin/Admin.php:279
+msgid "Pages in hierarchical order:"
+msgstr "Pages in hierarchical order:"
+
+#: classes/Admin/Admin.php:282
+msgid "Recent products with images:"
+msgstr "Recent products with images:"
+
+#: classes/Admin/Admin.php:285
+msgid "Custom styled sitemap:"
+msgstr "Custom styled sitemap:"
+
+#: classes/Admin/Admin.php:300
+msgid "Custom Styling"
+msgstr "Custom Styling"
+
+#: classes/Admin/Admin.php:303
+msgid "Custom CSS"
+msgstr "Custom CSS"
+
+#: classes/Admin/Admin.php:306
+msgid "Add custom CSS to style your sitemaps"
+msgstr "Add custom CSS to style your sitemaps"
+
+#: classes/Admin/Admin.php:320
+msgid "Build your shortcode"
+msgstr "Build your shortcode"
+
+#: classes/Admin/Admin.php:325
+msgid "Basic Settings"
+msgstr "Basic Settings"
+
+#: classes/Admin/Admin.php:328
+msgid "Post type"
+msgstr "Post type"
+
+#: classes/Admin/Admin.php:331
+msgid "All"
+msgstr "All"
+
+#: classes/Admin/Admin.php:339
+msgid "Limit"
+msgstr "Limit"
+
+#: classes/Admin/Admin.php:343
+msgid "Order by"
+msgstr "Order by"
+
+#: classes/Admin/Admin.php:346
+msgid "date"
+msgstr "date"
+
+#: classes/Admin/Admin.php:347
+msgid "title"
+msgstr "title"
+
+#: classes/Admin/Admin.php:348
+msgid "modified"
+msgstr "modified"
+
+#: classes/Admin/Admin.php:349
+msgid "menu_order"
+msgstr "menu_order"
+
+#: classes/Admin/Admin.php:350
+msgid "rand"
+msgstr "rand"
+
+#: classes/Admin/Admin.php:351
+msgid "ID"
+msgstr "ID"
+
+#: classes/Admin/Admin.php:352
+msgid "author"
+msgstr "author"
+
+#: classes/Admin/Admin.php:353
+msgid "name"
+msgstr "name"
+
+#: classes/Admin/Admin.php:358
+msgid "Order"
+msgstr "Order"
+
+#: classes/Admin/Admin.php:368
+msgid "Content Filtering"
+msgstr "Content Filtering"
+
+#: classes/Admin/Admin.php:371
+msgid "Include IDs"
+msgstr "Include IDs"
+
+#: classes/Admin/Admin.php:374
+msgid "Include only specific post IDs (comma-separated)."
+msgstr "Include only specific post IDs (comma-separated)."
+
+#: classes/Admin/Admin.php:378
+msgid "Exclude IDs"
+msgstr "Exclude IDs"
+
+#: classes/Admin/Admin.php:381
+msgid "Exclude specific post IDs (comma-separated)."
+msgstr "Exclude specific post IDs (comma-separated)."
+
+#: classes/Admin/Admin.php:385
+msgid "Category slugs"
+msgstr "Category slugs"
+
+#: classes/Admin/Admin.php:388
+msgid "Filter by category slugs (comma-separated)."
+msgstr "Filter by category slugs (comma-separated)."
+
+#: classes/Admin/Admin.php:392
+msgid "Tag slugs"
+msgstr "Tag slugs"
+
+#: classes/Admin/Admin.php:395
+msgid "Filter by tag slugs (comma-separated)."
+msgstr "Filter by tag slugs (comma-separated)."
+
+#: classes/Admin/Admin.php:399
+msgid "Custom taxonomy"
+msgstr "Custom taxonomy"
+
+#: classes/Admin/Admin.php:405
+msgid "Taxonomy name and term slugs (comma-separated)."
+msgstr "Taxonomy name and term slugs (comma-separated)."
+
+#: classes/Admin/Admin.php:409
+msgid "Author ID"
+msgstr "Author ID"
+
+#: classes/Admin/Admin.php:412
+msgid "Filter by author user ID."
+msgstr "Filter by author user ID."
+
+#: classes/Admin/Admin.php:416
+msgid "Date range"
+msgstr "Date range"
+
+#: classes/Admin/Admin.php:422
+msgid "Filter posts from/to specific dates (YYYY-MM-DD)."
+msgstr "Filter posts from/to specific dates (YYYY-MM-DD)."
+
+#: classes/Admin/Admin.php:428
+msgid "Display Options"
+msgstr "Display Options"
+
+#: classes/Admin/Admin.php:431
+msgid "Layout"
+msgstr "Layout"
+
+#: classes/Admin/Admin.php:433
+msgid "Hierarchical display"
+msgstr "Hierarchical display"
+
+#: classes/Admin/Admin.php:435
+msgid "Depth:"
+msgstr "Depth:"
+
+#: classes/Admin/Admin.php:439
+msgid "Show content"
+msgstr "Show content"
+
+#: classes/Admin/Admin.php:441
+msgid "Publication dates"
+msgstr "Publication dates"
+
+#: classes/Admin/Admin.php:443
+msgid "Post excerpts"
+msgstr "Post excerpts"
+
+#: classes/Admin/Admin.php:445
+msgid "Featured images"
+msgstr "Featured images"
+
+#: classes/Admin/Admin.php:449
+msgid "Columns"
+msgstr "Columns"
+
+#: classes/Admin/Admin.php:452
+msgid "1 column"
+msgstr "1 column"
+
+#: classes/Admin/Admin.php:453
+msgid "2 columns"
+msgstr "2 columns"
+
+#: classes/Admin/Admin.php:454
+msgid "3 columns"
+msgstr "3 columns"
+
+#: classes/Admin/Admin.php:455
+msgid "4 columns"
+msgstr "4 columns"
+
+#: classes/Admin/Admin.php:456
+msgid "5 columns"
+msgstr "5 columns"
+
+#: classes/Admin/Admin.php:457
+msgid "6 columns"
+msgstr "6 columns"
+
+#: classes/Admin/Admin.php:459
+msgid "Number of columns for responsive grid layout."
+msgstr "Number of columns for responsive grid layout."
+
+#: classes/Admin/Admin.php:463
+msgid "Custom class"
+msgstr "Custom class"
+
+#: classes/Admin/Admin.php:466
+msgid "Add custom CSS class for styling."
+msgstr "Add custom CSS class for styling."
+
+#: classes/Admin/Admin.php:474
+msgid "Generated Shortcode"
+msgstr "Generated Shortcode"
+
+#: classes/Admin/Admin.php:476
+msgid "Select and copy the shortcode above to use in your posts/pages."
+msgstr "Select and copy the shortcode above to use in your posts/pages."
+
+#: classes/Admin/Admin.php:482
+msgid "All Supported Attributes"
+msgstr "All Supported Attributes"
+
+#: classes/Admin/Admin.php:487
+msgid "Supported Values"
+msgstr "Supported Values"
+
+#: classes/Admin/Admin.php:497
+#: classes/Admin/Admin.php:525
+#: classes/Admin/Admin.php:532
+#: classes/Admin/Admin.php:539
+#: classes/Admin/Admin.php:546
+#: classes/Admin/Admin.php:553
+#: classes/Admin/Admin.php:560
+#: classes/Admin/Admin.php:567
+#: classes/Admin/Admin.php:574
+#: classes/Admin/Admin.php:581
+msgid "empty"
+msgstr "empty"
+
+#: classes/Admin/Admin.php:498
+msgid "Post type to display"
+msgstr "Post type to display"
+
+#: classes/Admin/Admin.php:503
+#: classes/Admin/Admin.php:622
+msgid "Positive integer"
+msgstr "Positive integer"
+
+#: classes/Admin/Admin.php:519
+msgid "Sort direction"
+msgstr "Sort direction"
+
+#: classes/Admin/Admin.php:524
+#: classes/Admin/Admin.php:531
+msgid "Comma-separated post IDs"
+msgstr "Comma-separated post IDs"
+
+#: classes/Admin/Admin.php:526
+msgid "Include only specific post IDs"
+msgstr "Include only specific post IDs"
+
+#: classes/Admin/Admin.php:538
+msgid "Comma-separated category slugs"
+msgstr "Comma-separated category slugs"
+
+#: classes/Admin/Admin.php:545
+msgid "Comma-separated tag slugs"
+msgstr "Comma-separated tag slugs"
+
+#: classes/Admin/Admin.php:552
+msgid "Any taxonomy slug"
+msgstr "Any taxonomy slug"
+
+#: classes/Admin/Admin.php:554
+msgid "Custom taxonomy name to filter by"
+msgstr "Custom taxonomy name to filter by"
+
+#: classes/Admin/Admin.php:559
+msgid "Comma-separated term slugs"
+msgstr "Comma-separated term slugs"
+
+#: classes/Admin/Admin.php:561
+msgid "Custom taxonomy term slugs"
+msgstr "Custom taxonomy term slugs"
+
+#: classes/Admin/Admin.php:566
+msgid "Author user ID"
+msgstr "Author user ID"
+
+#: classes/Admin/Admin.php:573
+#: classes/Admin/Admin.php:580
+msgid "Date in YYYY-MM-DD format"
+msgstr "Date in YYYY-MM-DD format"
+
+#: classes/Admin/Admin.php:575
+msgid "Show posts from this date"
+msgstr "Show posts from this date"
+
+#: classes/Admin/Admin.php:582
+msgid "Show posts until this date"
+msgstr "Show posts until this date"
+
+#: classes/Admin/Admin.php:594
+msgid "Non-negative integer"
+msgstr "Non-negative integer"
+
+#: classes/Admin/Admin.php:596
+msgid "Hierarchy depth"
+msgstr "Hierarchy depth"
+
+#: classes/Admin/Admin.php:624
+msgid "Number of columns"
+msgstr "Number of columns"
+
+#: classes/Admin/Admin.php:629
+msgid "Valid CSS class name"
+msgstr "Valid CSS class name"
+
+#: classes/Admin/Admin.php:631
+msgid "Custom CSS class for styling"
+msgstr "Custom CSS class for styling"
+
+#: classes/Admin/Admin.php:637
+msgid "All attributes can be used together. Example: [easy_sitemap post_type=\"post\" category=\"news\" limit=\"20\" show_dates=\"1\" show_images=\"1\"]"
+msgstr "All attributes can be used together. Example: [easy_sitemap post_type=\"post\" category=\"news\" limit=\"20\" show_dates=\"1\" show_images=\"1\"]"
+
+#: classes/Frontend/Shortcodes.php:406
+msgid "No content found."
+msgstr "No content found."
+
+#: classes/Frontend/Shortcodes.php:478
+msgid "Uncategorized"
+msgstr "Uncategorized"
+
+#: classes/Frontend/Shortcodes.php:646
+msgid "Posts"
+msgstr "Posts"
+
+#: classes/Frontend/Shortcodes.php:654
+msgid "Pages"
+msgstr "Pages"

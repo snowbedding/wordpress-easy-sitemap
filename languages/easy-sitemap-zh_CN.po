@@ -1,45 +1,44 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Easy Sitemap\n"
-"POT-Creation-Date: 2025-11-04 00:00+0800\n"
-"PO-Revision-Date: 2025-11-04 00:00+0800\n"
+"Report-Msgid-Bugs-To: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
-"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-11-04 00:00+0800\n"
+"PO-Revision-Date: 2025-11-04 00:00+0800\n"
+"Language: zh_CN\n"
 "X-Generator: Poedit 2.0.1\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: index.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
-"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#. Plugin Name of the plugin/theme
+#. Plugin Name of the plugin
+#: index.php
+#: classes/Admin/Admin.php:38
+#: classes/Admin/Admin.php:115
 msgid "Easy Sitemap"
 msgstr "Easy Sitemap 站点地图"
 
-#. Plugin URI of the plugin/theme
-#. Author URI of the plugin/theme
-msgid "https://github.com/snowbedding/wordpress-easy-sitemap"
+#. Plugin URI of the plugin
+#: index.php
+msgid "https://github.com/snowbedding/easy-sitemap"
 msgstr ""
 
-#. Description of the plugin/theme
-msgid ""
-"Advanced WordPress HTML sitemap plugin with modern PSR-4 autoloading, OOP "
-"architecture, intelligent caching, and comprehensive filtering capabilities. "
-"Perfect for user navigation and SEO."
-msgstr ""
-"高级WordPress HTML站点地图插件，具有现代PSR-4自动加载、OOP架构、智能缓存和全面过滤功能。"
-"完美适用于用户导航和SEO。"
+#. Description of the plugin
+#: index.php
+msgid "Advanced WordPress HTML sitemap plugin with modern PSR-4 autoloading, OOP architecture, intelligent caching, and comprehensive filtering capabilities. Perfect for user navigation and SEO."
+msgstr "高级WordPress HTML站点地图插件，具有现代PSR-4自动加载、OOP架构、智能缓存和全面过滤功能。完美适用于用户导航和SEO。"
 
-#. Author of the plugin/theme
+#. Author of the plugin
+#: index.php
 msgid "snowbedding"
 msgstr "snowbedding"
 
@@ -47,11 +46,8 @@ msgstr "snowbedding"
 msgid "Easy Sitemap Settings"
 msgstr "Easy Sitemap 设置"
 
-#: classes/Admin/Admin.php:38
-msgid "Easy Sitemap"
-msgstr "Easy Sitemap"
-
 #: classes/Admin/Admin.php:86
+#: classes/Admin/Admin.php:477
 msgid "Copy Shortcode"
 msgstr "复制短代码"
 
@@ -66,10 +62,6 @@ msgstr "设置"
 #: classes/Admin/Admin.php:110
 msgid "You do not have sufficient permissions to access this page."
 msgstr "您没有足够的权限访问此页面。"
-
-#: classes/Admin/Admin.php:115
-msgid "Easy Sitemap"
-msgstr "Easy Sitemap"
 
 #: classes/Admin/Admin.php:118
 msgid "WordPress.org Plugin Page"
@@ -100,18 +92,22 @@ msgid "Available Attributes"
 msgstr "可用属性"
 
 #: classes/Admin/Admin.php:162
+#: classes/Admin/Admin.php:486
 msgid "Attribute"
 msgstr "属性"
 
 #: classes/Admin/Admin.php:163
+#: classes/Admin/Admin.php:489
 msgid "Description"
 msgstr "描述"
 
 #: classes/Admin/Admin.php:164
+#: classes/Admin/Admin.php:488
 msgid "Default"
 msgstr "默认值"
 
 #: classes/Admin/Admin.php:165
+#: classes/Admin/Admin.php:490
 msgid "Example"
 msgstr "示例"
 
@@ -120,10 +116,12 @@ msgid "Post type to display (empty = all)"
 msgstr "要显示的文章类型（空 = 全部）"
 
 #: classes/Admin/Admin.php:177
+#: classes/Admin/Admin.php:505
 msgid "Number of items to display"
 msgstr "要显示的项目数量"
 
 #: classes/Admin/Admin.php:183
+#: classes/Admin/Admin.php:512
 msgid "Sort items by"
 msgstr "排序依据"
 
@@ -136,18 +134,22 @@ msgid "Include specific post IDs"
 msgstr "包含特定的文章ID"
 
 #: classes/Admin/Admin.php:201
+#: classes/Admin/Admin.php:533
 msgid "Exclude specific post IDs"
 msgstr "排除特定的文章ID"
 
 #: classes/Admin/Admin.php:207
+#: classes/Admin/Admin.php:540
 msgid "Filter by category slugs"
 msgstr "按分类别名过滤"
 
 #: classes/Admin/Admin.php:213
+#: classes/Admin/Admin.php:547
 msgid "Filter by tag slugs"
 msgstr "按标签别名过滤"
 
 #: classes/Admin/Admin.php:219
+#: classes/Admin/Admin.php:568
 msgid "Filter by author ID"
 msgstr "按作者ID过滤"
 
@@ -160,6 +162,7 @@ msgid "Show posts until date (YYYY-MM-DD)"
 msgstr "显示到日期为止的文章（YYYY-MM-DD）"
 
 #: classes/Admin/Admin.php:237
+#: classes/Admin/Admin.php:589
 msgid "Display hierarchical structure"
 msgstr "显示层级结构"
 
@@ -168,14 +171,17 @@ msgid "Hierarchy depth (0 = unlimited)"
 msgstr "层级深度（0 = 无限制）"
 
 #: classes/Admin/Admin.php:249
+#: classes/Admin/Admin.php:603
 msgid "Show publication dates"
 msgstr "显示发布日期"
 
 #: classes/Admin/Admin.php:255
+#: classes/Admin/Admin.php:610
 msgid "Show post excerpts"
 msgstr "显示文章摘要"
 
 #: classes/Admin/Admin.php:261
+#: classes/Admin/Admin.php:617
 msgid "Show featured images"
 msgstr "显示特色图片"
 
@@ -411,19 +417,24 @@ msgstr "添加自定义CSS类用于样式设置。"
 msgid "Generated Shortcode"
 msgstr "生成的短代码"
 
-#: classes/Admin/Admin.php:477
+#: classes/Admin/Admin.php:476
 msgid "Select and copy the shortcode above to use in your posts/pages."
 msgstr "选择并复制上面的短代码以在您的文章/页面中使用。"
-
-#: classes/Admin/Admin.php:478
-msgid "Copy Shortcode"
-msgstr "复制短代码"
 
 #: classes/Admin/Admin.php:482
 msgid "All Supported Attributes"
 msgstr "所有支持的属性"
 
-#: classes/Admin/Admin.php:494
+#: classes/Admin/Admin.php:497
+#: classes/Admin/Admin.php:525
+#: classes/Admin/Admin.php:532
+#: classes/Admin/Admin.php:539
+#: classes/Admin/Admin.php:546
+#: classes/Admin/Admin.php:553
+#: classes/Admin/Admin.php:560
+#: classes/Admin/Admin.php:567
+#: classes/Admin/Admin.php:574
+#: classes/Admin/Admin.php:581
 msgid "empty"
 msgstr "空"
 
@@ -431,51 +442,37 @@ msgstr "空"
 msgid "Post type to display"
 msgstr "要显示的文章类型"
 
-#: classes/Admin/Admin.php:504
+#: classes/Admin/Admin.php:503
+#: classes/Admin/Admin.php:622
 msgid "Positive integer"
 msgstr "正整数"
 
-#: classes/Admin/Admin.php:508
-msgid "Sort items by"
-msgstr "排序项目依据"
-
-#: classes/Admin/Admin.php:514
+#: classes/Admin/Admin.php:519
 msgid "Sort direction"
 msgstr "排序方向"
 
-#: classes/Admin/Admin.php:520
+#: classes/Admin/Admin.php:524
+#: classes/Admin/Admin.php:531
 msgid "Comma-separated post IDs"
 msgstr "用逗号分隔的文章ID"
 
-#: classes/Admin/Admin.php:524
+#: classes/Admin/Admin.php:526
 msgid "Include only specific post IDs"
 msgstr "仅包含特定的文章ID"
 
-#: classes/Admin/Admin.php:530
-msgid "Exclude specific post IDs"
-msgstr "排除特定的文章ID"
-
-#: classes/Admin/Admin.php:536
+#: classes/Admin/Admin.php:538
 msgid "Comma-separated category slugs"
 msgstr "用逗号分隔的分类别名"
 
-#: classes/Admin/Admin.php:540
-msgid "Filter by category slugs"
-msgstr "按分类别名过滤"
-
-#: classes/Admin/Admin.php:544
+#: classes/Admin/Admin.php:545
 msgid "Comma-separated tag slugs"
 msgstr "用逗号分隔的标签别名"
-
-#: classes/Admin/Admin.php:548
-msgid "Filter by tag slugs"
-msgstr "按标签别名过滤"
 
 #: classes/Admin/Admin.php:554
 msgid "Custom taxonomy name to filter by"
 msgstr "用于过滤的自定义分类法名称"
 
-#: classes/Admin/Admin.php:560
+#: classes/Admin/Admin.php:561
 msgid "Custom taxonomy term slugs"
 msgstr "自定义分类法术语别名"
 
@@ -483,65 +480,38 @@ msgstr "自定义分类法术语别名"
 msgid "Author user ID"
 msgstr "作者用户ID"
 
-#: classes/Admin/Admin.php:570
-msgid "Filter by author ID"
-msgstr "按作者ID过滤"
-
-#: classes/Admin/Admin.php:574
+#: classes/Admin/Admin.php:573
+#: classes/Admin/Admin.php:580
 msgid "Date in YYYY-MM-DD format"
 msgstr "YYYY-MM-DD格式的日期"
 
-#: classes/Admin/Admin.php:578
+#: classes/Admin/Admin.php:575
 msgid "Show posts from this date"
 msgstr "从此日期显示文章"
 
-#: classes/Admin/Admin.php:584
+#: classes/Admin/Admin.php:582
 msgid "Show posts until this date"
 msgstr "显示到此日期为止的文章"
-
-#: classes/Admin/Admin.php:590
-msgid "Display hierarchical structure"
-msgstr "显示层级结构"
 
 #: classes/Admin/Admin.php:596
 msgid "Hierarchy depth"
 msgstr "层级深度"
 
-#: classes/Admin/Admin.php:602
-msgid "Show publication dates"
-msgstr "显示发布日期"
-
-#: classes/Admin/Admin.php:608
-msgid "Show post excerpts"
-msgstr "显示文章摘要"
-
-#: classes/Admin/Admin.php:614
-msgid "Show featured images"
-msgstr "显示特色图片"
-
-#: classes/Admin/Admin.php:620
-msgid "Positive integer"
-msgstr "正整数"
-
 #: classes/Admin/Admin.php:624
 msgid "Number of columns"
 msgstr "列数"
 
-#: classes/Admin/Admin.php:630
+#: classes/Admin/Admin.php:629
 msgid "Valid CSS class name"
 msgstr "有效的CSS类名"
 
-#: classes/Admin/Admin.php:634
+#: classes/Admin/Admin.php:631
 msgid "Custom CSS class for styling"
 msgstr "用于样式的自定义CSS类"
 
 #: classes/Admin/Admin.php:637
-msgid ""
-"All attributes can be used together. Example: [easy_sitemap post_type=\"post\" "
-"category=\"news\" limit=\"20\" show_dates=\"1\" show_images=\"1\"]"
-msgstr ""
-"所有属性可以一起使用。示例：[easy_sitemap post_type=\"post\" category=\"news\" "
-"limit=\"20\" show_dates=\"1\" show_images=\"1\"]"
+msgid "All attributes can be used together. Example: [easy_sitemap post_type=\"post\" category=\"news\" limit=\"20\" show_dates=\"1\" show_images=\"1\"]"
+msgstr "所有属性可以一起使用。示例：[easy_sitemap post_type=\"post\" category=\"news\" limit=\"20\" show_dates=\"1\" show_images=\"1\"]"
 
 #: classes/Frontend/Shortcodes.php:406
 msgid "No content found."
@@ -558,3 +528,24 @@ msgstr "文章"
 #: classes/Frontend/Shortcodes.php:654
 msgid "Pages"
 msgstr "页面"
+
+#. Author URI of the plugin
+#: index.php
+msgid "https://github.com/snowbedding"
+msgstr ""
+
+#: classes/Admin/Admin.php:487
+msgid "Supported Values"
+msgstr ""
+
+#: classes/Admin/Admin.php:552
+msgid "Any taxonomy slug"
+msgstr ""
+
+#: classes/Admin/Admin.php:559
+msgid "Comma-separated term slugs"
+msgstr ""
+
+#: classes/Admin/Admin.php:594
+msgid "Non-negative integer"
+msgstr ""

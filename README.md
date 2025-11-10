@@ -2,14 +2,6 @@
 
 Advanced HTML sitemap generator for WordPress with modern PSR-4 autoloading, OOP architecture, intelligent caching, and extensive customization options.
 
-**Version:** 2.0.0
-
-## 📞 Support
-
-For support, bug reports, or feature requests:
-- [WordPress Plugin Directory](https://wordpress.org/plugins/easy-sitemap/)
-- [Easy Sitemap Support](https://github.com/snowbedding/wordpress-easy-sitemap/issues)
-
 ## ✨ Features
 
 - **Modern Architecture**: PSR-4 autoloading with clean OOP design
@@ -254,8 +246,10 @@ classes/
 │       ├── admin.js            # Admin functionality
 │       └── frontend.js         # Frontend interactions
 ├── languages/
-│   ├── snowbedding-easy-sitemap-zh_CN.mo # Chinese translations (compiled)
-│   └── snowbedding-easy-sitemap-zh_CN.po # Chinese translations (source)
+│   ├── easy-sitemap-en_US.mo # English (US) translations (compiled)
+│   ├── easy-sitemap-en_US.po # English (US) translations (source)
+│   ├── easy-sitemap-zh_CN.mo # Chinese translations (compiled)
+│   └── easy-sitemap-zh_CN.po # Chinese translations (source)
 └── index.php                   # Plugin entry point
 ```
 
@@ -306,9 +300,9 @@ add_filter( 'easy_sitemap_supported_post_types', function( $post_types ) {
 
 ### Internationalization
 
-- Text domain: `snowbedding-easy-sitemap`
+- Text domain: `easy-sitemap`
 - Translation files: `languages/` directory
-- Currently includes Chinese (zh_CN) translations
+- Currently includes English (en_US) and Chinese (zh_CN) translations
 - Fully translatable admin interface and frontend output
 
 ## 📄 License

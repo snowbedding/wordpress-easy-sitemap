@@ -1,16 +1,16 @@
 <?php
 /**
  * Plugin Name: Easy Sitemap
- * Plugin URI:  https://github.com/snowbedding/wordpress-easy-sitemap
+ * Plugin URI:  https://github.com/snowbedding/easy-sitemap
  * Description: Advanced WordPress HTML sitemap plugin with modern PSR-4 autoloading, OOP architecture, intelligent caching, and comprehensive filtering capabilities. Perfect for user navigation and SEO.
  * Version: 2.0.0
  * Author: snowbedding
  * Author URI: https://github.com/snowbedding
- * Text Domain: snowbedding-easy-sitemap
+ * Text Domain: easy-sitemap
  * Domain Path: /languages
  * License: GPLv2 or later
  * Requires at least: 5.0
- * Tested up to: 6.6
+ * Tested up to: 6.9
  * Requires PHP: 7.2
  *
  * @package EasySitemap
