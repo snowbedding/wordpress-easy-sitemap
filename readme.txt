@@ -150,7 +150,7 @@ This major update includes a complete architecture rewrite with modern PSR-4 aut
 
 == Support ==
 
-For support, bug reports, or feature requests, please visit: [Easy Sitemap Support](https://github.com/snowbedding/easy-sitemap)
+For support, bug reports, or feature requests, please visit: [Github](https://github.com/snowbedding/easy-sitemap)
 
 == Contributing ==
 
